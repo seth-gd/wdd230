@@ -25,6 +25,8 @@ header {
 div {
     max-width: 120px;
     margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
 }
 img {
     display: block;
