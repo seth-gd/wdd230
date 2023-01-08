@@ -57,3 +57,4 @@ main p {
 /* FOOTER */
 footer {padding: .5em 0;}
 footer p {text-align: center;}
+footer p:nth-of-type(2) {color: #FFFB00;}
