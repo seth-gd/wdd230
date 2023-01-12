@@ -15,10 +15,7 @@ header, main, footer {
 h2, h1 {text-align: center;}
 
 /* HEADER */
-header {
-    display: block;
-    padding: 2em 0;
-}
+header {padding: 2em 0;}
 img {
     display: block;
     max-width: 120px;
