@@ -32,8 +32,8 @@ h3, .principle-content {
 }
 h4, p {font-size: 1.2em;}
 
-a {color: #46C7FF;}
-a:hover {color: #fff;}
+a {color: #DB8EFE;}
+a:hover {font-weight: 700; color: #fff;}
 
 img {
     display: block;
