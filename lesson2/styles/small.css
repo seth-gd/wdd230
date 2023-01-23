@@ -4,14 +4,14 @@ body {
     font-size: 16px;
     margin: 0;
     color: #fff;
-    background-color: #12171A;
+    background-color: #0c1012;
 }
 header, main, footer {
     max-width: 800px;
     margin: 2em auto;
 }
 
-header, section, footer {background-color: #1B2328;}
+header, section, footer {background-color: #1e272c;}
 header, footer {padding: .5em 0;}
 h1, h2 {text-align: center;}
 
@@ -19,12 +19,12 @@ h1, h2 {text-align: center;}
 header {margin-top: 0;}
 
 /* MAIN */
-section {margin: 2em 0;}
+section {margin: 2em 0;}    
 h3 {
     padding: .5em 0;
     font-size: 1.5em;
 }
-.principle-heading {background-color: #151B1F;}
+.principle-heading {background-color: #181f23;}
 
 h3, .principle-content {
     margin: auto;

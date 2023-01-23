@@ -5,12 +5,12 @@ body {
     font-size: 16px;
     margin: 0;
     color: #fff;
-    background-color: #0F1416;
+    background-color: #0c1012;
 }
 header, main, footer {
     max-width: 48em;
     margin: 1em auto;
-    background-color: #1E272C;
+    background-color: #1b2328;
 }
 a {color: #DB8EFE;}
 a:hover {font-weight: 700; color: #fff;}
@@ -74,15 +74,11 @@ main ul {
 .color-scheme li:nth-child(3) span {background-color: #E0FFE0; color: #000; display: block;}
 
 /* --- Typography --- */
-.ubuntu-h {
-    font-family: 'Ubuntu', Helvetica, sans-serif;
+.ubuntu-h, .roboto-p {
     font-size: 2em;
     margin: 0;
 }
-.roboto-p {
-    font-size: 2em;
-    margin: 0;
-}
+.ubuntu-h {font-family: 'Ubuntu', Helvetica, sans-serif;}
 
 /* FOOTER */
 footer {

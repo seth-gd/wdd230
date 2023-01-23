@@ -4,6 +4,9 @@
         border-radius: 15px;
         overflow: hidden;
     }
+
+    /* HEADER */
+    header {margin-top: 1em;}
     
     /* MAIN */
     main {
@@ -16,4 +19,6 @@
         grid-column: 1/3;
         grid-row: 2/3;
     }
+    /* FOOTER */
+    footer {margin-bottom: 1em;}
 }
