@@ -30,7 +30,7 @@ h3, .principle-content {
     margin: auto;
     max-width: 94%;
 }
-h4, p {font-size: 1.2em;}
+h4, main p {font-size: 1.2em;}
 
 a {color: #DB8EFE;}
 a:hover {font-weight: 700; color: #fff;}
