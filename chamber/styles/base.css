@@ -1,0 +1,122 @@
+/* MULTIPLE CONTENT */
+/* Color Palette: https://www.color-hex.com/color-palette/97181 */
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: #C9F4C9;
+}
+.wrapper, main {
+    max-width: 64em;
+    margin: 0 auto;
+}
+header, footer {
+    background-color: #006300;
+    color: #fff;
+}
+h1, h2, h3 {font-family: 'Ubuntu', Helvetica, sans-serif;}
+
+/* HEADER */
+header {padding-top: 1em}
+.header-flex {
+    display: flex;
+    margin: 0 2%;
+}
+
+.logo {
+    display: block;
+    max-width: 100px;
+    border-radius: 10px;
+}
+h1 {padding: .4em;}
+h2 {
+    text-align: center;
+    margin: .5em 2%;
+    padding: .5em 0;
+    background-color: #084D08;
+}
+.social {
+    padding-bottom: .5em;
+    margin: 0 2%;
+}
+.social img {
+    padding: .1em;
+    max-width: 60px;
+}
+
+/* NAVIGATION */
+nav {background-color: #003600;}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav button {
+    color: #fff;
+    background-color: transparent;
+    font-size: 1.25em;
+    padding: 1em; 
+    border: none;
+    font-weight: bold;
+}
+nav ul li a {
+    display: block;
+    padding: 1em .75em;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.25em;
+    text-align: center;
+}
+nav button:hover {
+    background-color: #0CEA0C;
+    color: #000;
+}
+nav ul li a:hover {
+    background-color: #0CEA0C;
+    color: #000;
+}
+
+/* Responsive Nav */
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#nav-button span:nth-child(1) {display: block;}
+#nav-button span:nth-child(2) {display: none;}
+
+#nav-button.open span:nth-child(1) {display: none;}
+#nav-button.open span:nth-child(2) {display: block;}
+
+/* MAIN */
+main section {
+    background-color: #fff;
+    padding: .5em;
+    margin: 1em 0;
+    border-radius: 20px;
+}
+
+/* FOOTER */
+footer {padding: 1em 0;}
+
+footer img {
+    display: block;
+    max-width: 150px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+footer h3, footer p {text-align: center;}
+
+footer a {color: #fff;}
+footer a:hover {font-weight: 700;}
+
+.footer-flex {
+    padding-bottom: 1.25em;
+}
+.footer-base {
+    padding: 1.5em 0 0 0;
+    margin: auto;
+    max-width: 96%;
+    border-top: 2px solid #fff;
+    line-height: 1.5em;
+}
