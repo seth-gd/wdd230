@@ -13,10 +13,12 @@ button.addEventListener('click', () => {
 
         // Create an li, a span, and a button to add to the ul.
         const listItem = document.createElement('li');
+        const listText = document.createElement('span');
         const listBtn = document.createElement('button');
     
         // Have the li display the value of the constant `chapter`.
-        listItem.textContent = chapter;
+        listItem.appendChild(listText);
+        listText.textContent = chapter;
     
         // Append the button to the li. Have the button display an X.
         listItem.appendChild(listBtn);
