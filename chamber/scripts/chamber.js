@@ -18,3 +18,12 @@ function toggleMenu() {
 
 const navButton = document.getElementById('nav-button');
 navButton.onclick = toggleMenu;
+
+// Show Monday/Tuesday Banner
+const currentDay = now.getDay();
+
+if (currentDay == 1 || currentDay == 2) {
+	document.getElementById('top-banner').style.display = 'block';
+} else {
+	document.getElementById('top-banner').style.display = 'none';
+}

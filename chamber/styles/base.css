@@ -16,6 +16,16 @@ header, footer {
 }
 h1, h2, h3 {font-family: 'Ubuntu', Helvetica, sans-serif;}
 
+/* MONDAY/TUESDAY BANNER */
+#top-banner {
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.25em;
+    margin: 0;
+    padding: .75em;
+    background-color: #4EFF4E;
+}
+
 /* HEADER */
 header {padding-top: 1em}
 .header-flex {
