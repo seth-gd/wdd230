@@ -74,11 +74,11 @@ main ul {
 .color-scheme li:nth-child(3) span {background-color: #E0FFE0; color: #000; display: block;}
 
 /* --- Typography --- */
-.ubuntu-h, .roboto-p {
-    font-size: 2em;
-    margin: 0;
+.ubuntu-heading {
+    font-size: 1.5em;
+    font-family: 'Ubuntu', Helvetica, sans-serif;
 }
-.ubuntu-h {font-family: 'Ubuntu', Helvetica, sans-serif;}
+.roboto-paragraph {font-size: 1em;}
 
 /* FOOTER */
 footer {
