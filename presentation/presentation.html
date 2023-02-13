@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Seth Godoy">
+  <meta name="description" 
+  content="Working example of JavaScript localStorage for the Student Presentation due in Week 07 for WDD 230 in BYU-Idaho">
+
+  <title>JavaScript localStorage</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+  <h1>JavaScript localStorage</h1>
+  
+  <main>
+    <div class="text-field">
+      <label for="favchap">Enter your name: </label>
+      <input type="text" id="name-field" placeholder="John Doe">
+      <p>Your saved name is: <strong><span id="user-name"></span></strong></p>
+    </div>
+
+    <div class="button-flex">
+      <button type="submit" id="save-name">Save Name</button>
+      <button type="submit" id="show-name">Show Name</button>
+      <button type="submit" id="delete-name">Delete Name</button>
+    </div>
+  </main>
+  <script src="scripts/local-storage.js"></script>
+</body>
+</html>
