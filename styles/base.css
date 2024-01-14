@@ -61,6 +61,11 @@ nav a:hover {
 }
 
 /* MAIN */
+main {
+    display: grid;
+    grid-template: 1fr, 1fr 1fr 1fr
+}
+
 h2 {
     text-align: center;
     margin: 1rem;
@@ -73,7 +78,7 @@ h2 {
     background-color: #3e3e42;
     border-radius: 15px;
     overflow: hidden;
-    margin: 1rem 0;
+    margin: .5rem 0;
 }
 
 .card h3 {
@@ -99,6 +104,7 @@ h2 {
 footer {
     padding: 1rem 0;
     border-radius: 15px 15px 0 0;
+    margin-top: 1rem;
 }
 
 footer p {text-align: center;}
