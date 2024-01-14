@@ -63,7 +63,7 @@ nav a:hover {
 /* MAIN */
 main {
     display: grid;
-    grid-template: 1fr, 1fr 1fr 1fr
+    grid-template: auto auto auto / 1fr;
 }
 
 h2 {
