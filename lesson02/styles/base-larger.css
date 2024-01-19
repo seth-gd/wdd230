@@ -1,0 +1,8 @@
+@media screen and (min-width: 60em) {
+    /* ALL CONTENT */
+    header, main, footer {max-width: 960px;}
+
+    /* MAIN */
+    main {grid-template: auto / 1fr 1fr 1fr;}
+    section:nth-child(3) {grid-column: 3 / 4;}
+}

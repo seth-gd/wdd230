@@ -1,0 +1,5 @@
+@media screen and (min-width: 40em) {
+    /* MAIN */
+    main {grid-template: auto auto / 1fr 1fr;}
+    section:nth-child(3) {grid-column: 1 / 3;}
+}
