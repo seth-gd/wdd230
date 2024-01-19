@@ -1,0 +1,25 @@
+/* ALL CONTENT */
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+header, main, footer {
+    max-width: 960px;
+    margin: auto;
+}
+
+header, h3, footer {background-color: #003880;}
+h1, h2, h3 {font-family: 'Roboto Slab', Helvetica, sans-serif;}
+p {font-size: 1.2rem;}
+
+/* HEADER */
+
+
+/* MAIN */
+.card {
+    background-color: #3e3e42;
+}
+
+/* FOOTER */
