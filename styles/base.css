@@ -90,10 +90,14 @@ h3 {
 }
 
 .card ul li {padding: .33rem 0;}
-
 .card ul li a {color: #fff;}
 .card ul li a:hover {color: yellow;}
-.card:nth-child(3) p {text-align: center;}
+
+.card:nth-child(3) p {
+    text-align: center;
+    margin: 1rem 0;
+    padding: .33rem 0;
+}
 
 /* FOOTER */
 footer {

@@ -53,6 +53,8 @@ section p {
     line-height: 1.5rem;
 }
 
+.desc {padding: 0 1rem 1.5rem 1rem;}
+
 a {color: white;}
 a:hover {color: yellow;}
 
@@ -61,6 +63,7 @@ img {
     display: block;
     max-width: 100%;
     margin: auto;
+    border-radius: 10px;
 }
 
 /* FOOTER */
